@@ -18,7 +18,7 @@ wso2_group: wso2
 wso2_user: wso2carbon
 product_name: wso2am
 product_version: 3.1.0
-target: /mnt
+target: /data
 product_package_location: files
 backup_dir: /tmp
 misc_file_location: "{{ product_package_location }}/misc"
