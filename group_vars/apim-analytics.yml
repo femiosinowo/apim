@@ -60,7 +60,7 @@ java_dir: /opt
 java_symlink: "{{ java_dir }}/java"
 java_home: "{{ java_dir }}/{{ jdk_name }}"
 
-admin_service_url: https://localhost:9443
+admin_service_url: https://apim.paosin.local:9443
 admin_service_username: admin
 admin_service_password: admin
 keymanager_username: admin
