@@ -1,5 +1,5 @@
 - name: Apply common configuration to all nodes
   hosts: apim
   roles:
-    - common
+    - apim-common
     - apim
