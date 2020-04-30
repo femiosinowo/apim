@@ -18,7 +18,7 @@
 # This playbook deploys the whole application stack in this site.
 
 - name: Apply common configuration to all nodes
-  hosts: all
+  hosts: apim
   roles:
     - common
 
