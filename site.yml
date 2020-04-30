@@ -24,7 +24,7 @@
 
 - name: Apply API Manager default configuration to an apim node
   hosts:
-    - apim_1
+    - apim
   roles:
     - apim
 
