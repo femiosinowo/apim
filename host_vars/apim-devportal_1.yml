@@ -17,7 +17,7 @@
 # NOTE: The parameterized values has the default values from the original pack. Please change them according to your
 # requirements. If you need to add additional configurations, please use the custom.yml under each role.
 
-hostname: localhost
+hostname: apim.paosin.local
 ports_offset: 0
 
 # User manager configurations
@@ -25,7 +25,7 @@ admin_username: admin
 admin_password: admin
 
 # api-manager.xml configs
-oauth_configs_revoke_api_url: https://localhost:${https.nio.port}/revoke
+oauth_configs_revoke_api_url: https://apim.paosin.local:${https.nio.port}/revoke
 
 config_files:
   - { src: 'carbon-home/repository/conf/deployment.toml.j2',
