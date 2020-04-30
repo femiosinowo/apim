@@ -21,11 +21,6 @@
   hosts: apim
   roles:
     - common
-
-- name: Apply API Manager default configuration to an apim node
-  hosts:
-    - apim
-  roles:
     - apim
 
 # NOTE: There are multiple profiles for API Management. You can deploy any profile you prefer by deploying the role in
